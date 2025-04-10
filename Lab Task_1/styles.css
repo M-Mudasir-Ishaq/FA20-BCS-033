@@ -1,0 +1,12 @@
+/* Custom CSS for extra styling */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
