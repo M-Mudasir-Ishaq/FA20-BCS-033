@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My CV</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    /* Header */
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Container */
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+
+      /* Gradient Border Animation */
+      border: 5px solid;
+      border-image-source: linear-gradient(to right, #ff7e5f, #feb47b);
+      border-image-slice: 1;
+      animation: borderAnimation 3s infinite alternate;
+    }
+
+    /* Sections */
+    h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+    }
+
+    /* List Styling */
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    /* Link Styling */
+    a {
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @keyframes borderAnimation {
+      0% {
+        border-image-source: linear-gradient(to right, #ff7e5f, #feb47b);
+      }
+      100% {
+        border-image-source: linear-gradient(to right, #6a11cb, #2575fc);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Muhammad Mudasir Ishaq</h1>
+    <p>Web Developer | Designer | Software Engineer</p>
+  </header>
+
+  <section class="container">
+    <div class="personal-info">
+      <h2>Personal Information</h2>
+      <p><strong>Email:</strong> mmudasir47427@gmail.com</p>
+      <p><strong>Phone:</strong> 03004475757</p>
+      <p><strong>Location:</strong> Lahore, Pakistan</p>
+    </div>
+
+    <div class="education">
+      <h2>Education</h2>
+      <p>Bachelor’s Degree in Computer Sciences - Comsats University Isb</p>
+      <p>Graduation Year: 2025</p>
+    </div>
+
+    <div class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Problem-Solving</li>
+        <li>WordPress</li>
+        <li>React Native</li>
+      </ul>
+    </div>
+
+    <div class="experience">
+      <h2>Experience</h2>
+      <p><strong>Svype</strong> - App Developer (2023 - 2024)</p>
+      <p>My responsibilities were to develop applications that meet maximum clients' demands.</p>
+    </div>
+
+    <div class="projects">
+      <h2>Projects</h2>
+      <p><strong>Project 1:</strong> Hotel Management System.</p>
+      <p><strong>Project 2:</strong> Car Rental App Named as DriveFleet.</p>
+    </div>
+
+    <div class="contact">
+      <h2>Contact</h2>
+      <p>GitHub: 
+        <a href="https://github.com/M-Mudasir-Ishaq/FA20-BCS-033" target="_blank">
+          https://github.com/M-Mudasir-Ishaq/FA20-BCS-033
+        </a>
+      </p>
+    </div>
+  </section>
+
+</body>
+</html>
